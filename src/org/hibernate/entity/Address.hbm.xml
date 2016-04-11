@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 2016-4-10 23:28:14 by Hibernate Tools 3.5.0.Final -->
+<hibernate-mapping>
+    <class name="org.hibernate.entity.Address" table="address">
+        <id name="addressid" type="int">
+            <column name="ADDRESSID" />
+            <generator class="identity" />
+        </id>
+        <property name="addressinfo" type="java.lang.String">
+            <column name="ADDRESSINFO" />
+        </property>
+    </class>
+</hibernate-mapping>
